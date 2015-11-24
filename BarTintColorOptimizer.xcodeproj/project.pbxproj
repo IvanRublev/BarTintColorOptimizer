@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8647524927570A93330E68BD /* libPods-BarTintColorOptimizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453C27187B1ABD43CE8D3C8 /* libPods-BarTintColorOptimizer.a */; };
+		ABB05FF61C04B3E900A774B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FE21C04B3E900A774B0 /* AppDelegate.m */; };
+		ABB05FF91C04B3E900A774B0 /* CodeObjC in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FE71C04B3E900A774B0 /* CodeObjC */; };
+		ABB05FFA1C04B3E900A774B0 /* CodeSwift in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FE81C04B3E900A774B0 /* CodeSwift */; };
+		ABB05FFB1C04B3E900A774B0 /* ConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FEA1C04B3E900A774B0 /* ConfigureViewController.m */; };
+		ABB05FFE1C04B3E900A774B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FED1C04B3E900A774B0 /* main.m */; };
+		ABB060001C04B3E900A774B0 /* NavbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FF01C04B3E900A774B0 /* NavbarView.m */; };
+		ABB060011C04B3E900A774B0 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FF21C04B3E900A774B0 /* ProgressViewController.m */; };
+		ABB060021C04B3E900A774B0 /* UIColor+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05FF41C04B3E900A774B0 /* UIColor+Components.m */; };
+		ABB060051C04BFC500A774B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FE51C04B3E900A774B0 /* Main.storyboard */; };
+		ABB060061C04BFC700A774B0 /* navbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FEE1C04B3E900A774B0 /* navbar.xib */; };
+		ABB060071C04BFCD00A774B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FE31C04B3E900A774B0 /* LaunchScreen.xib */; };
+		ABB060081C04C0E500A774B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB05FEB1C04B3E900A774B0 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE060CE7717E329E2181E90 /* Pods-BarTintColorOptimizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarTintColorOptimizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarTintColorOptimizer/Pods-BarTintColorOptimizer.release.xcconfig"; sourceTree = "<group>"; };
+		757D1DE8189F9DC116F4F862 /* Pods-BarTintColorOptimizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarTintColorOptimizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarTintColorOptimizer/Pods-BarTintColorOptimizer.debug.xcconfig"; sourceTree = "<group>"; };
+		9453C27187B1ABD43CE8D3C8 /* libPods-BarTintColorOptimizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarTintColorOptimizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1CCF8C1BDCB06F00FC8044 /* BarTintColorOptimizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTintColorOptimizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB05FE11C04B3E900A774B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB05FE21C04B3E900A774B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB05FE41C04B3E900A774B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABB05FE61C04B3E900A774B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB05FE71C04B3E900A774B0 /* CodeObjC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeObjC; sourceTree = "<group>"; };
+		ABB05FE81C04B3E900A774B0 /* CodeSwift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeSwift; sourceTree = "<group>"; };
+		ABB05FE91C04B3E900A774B0 /* ConfigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureViewController.h; sourceTree = "<group>"; };
+		ABB05FEA1C04B3E900A774B0 /* ConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureViewController.m; sourceTree = "<group>"; };
+		ABB05FEB1C04B3E900A774B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABB05FEC1C04B3E900A774B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB05FED1C04B3E900A774B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB05FEE1C04B3E900A774B0 /* navbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = navbar.xib; sourceTree = "<group>"; };
+		ABB05FEF1C04B3E900A774B0 /* NavbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavbarView.h; sourceTree = "<group>"; };
+		ABB05FF01C04B3E900A774B0 /* NavbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavbarView.m; sourceTree = "<group>"; };
+		ABB05FF11C04B3E900A774B0 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		ABB05FF21C04B3E900A774B0 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		ABB05FF31C04B3E900A774B0 /* UIColor+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Components.h"; sourceTree = "<group>"; };
+		ABB05FF41C04B3E900A774B0 /* UIColor+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Components.m"; sourceTree = "<group>"; };
+		ABB05FF51C04B3E900A774B0 /* VRFoundationVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRFoundationVersion.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1CCF891BDCB06F00FC8044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647524927570A93330E68BD /* libPods-BarTintColorOptimizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A0C63125F1B28A5027D2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9453C27187B1ABD43CE8D3C8 /* libPods-BarTintColorOptimizer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A709603183B06A7CB38E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				757D1DE8189F9DC116F4F862 /* Pods-BarTintColorOptimizer.debug.xcconfig */,
+				6EE060CE7717E329E2181E90 /* Pods-BarTintColorOptimizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB1CCF831BDCB06F00FC8044 = {
+			isa = PBXGroup;
+			children = (
+				ABB05FE01C04B3E900A774B0 /* BarTintColorOptimizer */,
+				AB1CCF8D1BDCB06F00FC8044 /* Products */,
+				85A709603183B06A7CB38E0D /* Pods */,
+				10A0C63125F1B28A5027D2A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1CCF8D1BDCB06F00FC8044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1CCF8C1BDCB06F00FC8044 /* BarTintColorOptimizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB05FE01C04B3E900A774B0 /* BarTintColorOptimizer */ = {
+			isa = PBXGroup;
+			children = (
+				ABB05FE11C04B3E900A774B0 /* AppDelegate.h */,
+				ABB05FE21C04B3E900A774B0 /* AppDelegate.m */,
+				ABB05FF51C04B3E900A774B0 /* VRFoundationVersion.h */,
+				ABB05FF31C04B3E900A774B0 /* UIColor+Components.h */,
+				ABB05FF41C04B3E900A774B0 /* UIColor+Components.m */,
+				ABB060031C04B40A00A774B0 /* Navbar view */,
+				ABB05FE91C04B3E900A774B0 /* ConfigureViewController.h */,
+				ABB05FEA1C04B3E900A774B0 /* ConfigureViewController.m */,
+				ABB05FF11C04B3E900A774B0 /* ProgressViewController.h */,
+				ABB05FF21C04B3E900A774B0 /* ProgressViewController.m */,
+				ABB05FE71C04B3E900A774B0 /* CodeObjC */,
+				ABB05FE81C04B3E900A774B0 /* CodeSwift */,
+				ABB05FE51C04B3E900A774B0 /* Main.storyboard */,
+				ABB05FE31C04B3E900A774B0 /* LaunchScreen.xib */,
+				ABB05FEB1C04B3E900A774B0 /* Images.xcassets */,
+				ABB060041C04B42F00A774B0 /* Support files */,
+			);
+			path = BarTintColorOptimizer;
+			sourceTree = "<group>";
+		};
+		ABB060031C04B40A00A774B0 /* Navbar view */ = {
+			isa = PBXGroup;
+			children = (
+				ABB05FEE1C04B3E900A774B0 /* navbar.xib */,
+				ABB05FEF1C04B3E900A774B0 /* NavbarView.h */,
+				ABB05FF01C04B3E900A774B0 /* NavbarView.m */,
+			);
+			name = "Navbar view";
+			sourceTree = "<group>";
+		};
+		ABB060041C04B42F00A774B0 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB05FEC1C04B3E900A774B0 /* Info.plist */,
+				ABB05FED1C04B3E900A774B0 /* main.m */,
+			);
+			name = "Support files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1CCF8B1BDCB06F00FC8044 /* BarTintColorOptimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1CCFAF1BDCB07000FC8044 /* Build configuration list for PBXNativeTarget "BarTintColorOptimizer" */;
+			buildPhases = (
+				9202C81AA7D6CBD27090FB5D /* Check Pods Manifest.lock */,
+				AB1CCF881BDCB06F00FC8044 /* Sources */,
+				AB1CCF891BDCB06F00FC8044 /* Frameworks */,
+				AB1CCF8A1BDCB06F00FC8044 /* Resources */,
+				E537C8EA215CFCCBA3D3C878 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarTintColorOptimizer;
+			productName = BarTintColorFitter;
+			productReference = AB1CCF8C1BDCB06F00FC8044 /* BarTintColorOptimizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1CCF841BDCB06F00FC8044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ivan Rublev http://ivanrublev.me";
+				TargetAttributes = {
+					AB1CCF8B1BDCB06F00FC8044 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = AB1CCF871BDCB06F00FC8044 /* Build configuration list for PBXProject "BarTintColorOptimizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1CCF831BDCB06F00FC8044;
+			productRefGroup = AB1CCF8D1BDCB06F00FC8044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1CCF8B1BDCB06F00FC8044 /* BarTintColorOptimizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1CCF8A1BDCB06F00FC8044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB060081C04C0E500A774B0 /* Images.xcassets in Resources */,
+				ABB060071C04BFCD00A774B0 /* LaunchScreen.xib in Resources */,
+				ABB060061C04BFC700A774B0 /* navbar.xib in Resources */,
+				ABB060051C04BFC500A774B0 /* Main.storyboard in Resources */,
+				ABB05FFA1C04B3E900A774B0 /* CodeSwift in Resources */,
+				ABB05FF91C04B3E900A774B0 /* CodeObjC in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9202C81AA7D6CBD27090FB5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E537C8EA215CFCCBA3D3C878 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarTintColorOptimizer/Pods-BarTintColorOptimizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1CCF881BDCB06F00FC8044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB060011C04B3E900A774B0 /* ProgressViewController.m in Sources */,
+				ABB060001C04B3E900A774B0 /* NavbarView.m in Sources */,
+				ABB05FF61C04B3E900A774B0 /* AppDelegate.m in Sources */,
+				ABB05FFE1C04B3E900A774B0 /* main.m in Sources */,
+				ABB05FFB1C04B3E900A774B0 /* ConfigureViewController.m in Sources */,
+				ABB060021C04B3E900A774B0 /* UIColor+Components.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB05FE31C04B3E900A774B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB05FE41C04B3E900A774B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABB05FE51C04B3E900A774B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB05FE61C04B3E900A774B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1CCFAD1BDCB07000FC8044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1CCFAE1BDCB07000FC8044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1CCFB01BDCB07000FC8044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757D1DE8189F9DC116F4F862 /* Pods-BarTintColorOptimizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BarTintColorOptimizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BarTintColorOptimizer;
+			};
+			name = Debug;
+		};
+		AB1CCFB11BDCB07000FC8044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE060CE7717E329E2181E90 /* Pods-BarTintColorOptimizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BarTintColorOptimizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BarTintColorOptimizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1CCF871BDCB06F00FC8044 /* Build configuration list for PBXProject "BarTintColorOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1CCFAD1BDCB07000FC8044 /* Debug */,
+				AB1CCFAE1BDCB07000FC8044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1CCFAF1BDCB07000FC8044 /* Build configuration list for PBXNativeTarget "BarTintColorOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1CCFB01BDCB07000FC8044 /* Debug */,
+				AB1CCFB11BDCB07000FC8044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1CCF841BDCB06F00FC8044 /* Project object */;
+}

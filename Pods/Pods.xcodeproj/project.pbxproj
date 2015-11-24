@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0533FCB7379EF1A46704DA979765D48F /* PSOStandardOptimizer2011.h in Headers */ = {isa = PBXBuildFile; fileRef = D635858772FE4F7375F669A48C4DA8A0 /* PSOStandardOptimizer2011.h */; };
+		08209640B58E5EA1C09E0E563E27318C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0CB1BC387D40C7B38E0D6E41ECCCBF /* Foundation.framework */; };
+		20AA1760826350F4FF6727D36F9A3B4D /* PSOFitnessCalculating.h in Headers */ = {isa = PBXBuildFile; fileRef = 5650C3AD9B632F18046FA964EE4691E4 /* PSOFitnessCalculating.h */; };
+		222FA9124AB7BA94956039AB408289CF /* PSOStandardOptimizer2011_Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FB677AE426C0235E5DDD5C9755D971 /* PSOStandardOptimizer2011_Subclass.h */; };
+		22DD6F573C65E55DE0D39046B50B6486 /* Pods-BarTintColorOptimizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8225245D0C2BB302CFD7229C882A41 /* Pods-BarTintColorOptimizer-dummy.m */; };
+		265693E2E56B618072663958A106AC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0CB1BC387D40C7B38E0D6E41ECCCBF /* Foundation.framework */; };
+		51E146655987A5298D9C5A6B9FD26162 /* PSOStandardOptimizer2011CircleTopology.h in Headers */ = {isa = PBXBuildFile; fileRef = 246A51B3622FE229B1E0ADCBBC845EBB /* PSOStandardOptimizer2011CircleTopology.h */; };
+		5582E65B67A94E18B37B30FBC0007664 /* PSOImmutableProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 854F82DB11FD2D402DB4AF505EC19309 /* PSOImmutableProxy.h */; };
+		62F8BFEA78C4161C0CC69F7C447CA210 /* ColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A36C95AD56F56AEC61FBEE7AEC6999 /* ColorUtils.h */; };
+		67AD1199AE687869FBC70941F49641FA /* PSORandKISS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28611520AAADDDF0C3529DC1E6624D2F /* PSORandKISS.mm */; };
+		73D69B7680E8A03F41ABA677098E0674 /* PSOImmutableProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BF1EAF1B9FDD2E4A0ABB635F3DA5F2 /* PSOImmutableProxy.m */; };
+		750D6AAC3383E9228F355AA46F3E9F88 /* PSOStandardOptimizer2011.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF3C0A4C43ABECF4D5145ED92C4239 /* PSOStandardOptimizer2011.m */; };
+		75152FB60E99476313E2501808C78BEA /* PSORandKISS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD88330959B441B6F206A205453349B /* PSORandKISS.h */; };
+		782030683E0CE2F47EB2B1974A29CFF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F96956E9AE95408BA6932FADADBEFD4 /* Security.framework */; };
+		9BFDA6F9EBD332657C9264A7405C5ACF /* PSOAlea.h in Headers */ = {isa = PBXBuildFile; fileRef = 962F3EDEE67BB10A7458983DD8352DFD /* PSOAlea.h */; };
+		9DFB5DE641B379C3068F04EEA8413621 /* PSOSearchSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 262BE8057E9038B3B220E514BAF1B7B3 /* PSOSearchSpace.h */; };
+		C37F85A92F4686A7BDD28A91E4ADFBE8 /* PSOLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E966F7B53E03C4AABA598223D8ABB97D /* PSOLib-dummy.m */; };
+		CF0CAF71A43BCA2B5672DADA4882D7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0CB1BC387D40C7B38E0D6E41ECCCBF /* Foundation.framework */; };
+		D300BB6695E2E64B6BDC93D7742AF26C /* ColorUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A91F418B3E7499FC4EE87463D498E /* ColorUtils-dummy.m */; };
+		D3B0CC979D4B49D65EAFDA4658DD3074 /* PSOSearchSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE84FA87120A80CE45441EEC64C0A6 /* PSOSearchSpace.m */; };
+		D5E74A8A3DF1DBB232CE190F597B2D86 /* PSOLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 525E59E0EC07FD7EE71D5EC606040BFE /* PSOLib.h */; };
+		D956B2D40B4E14AFA46FF157CAB6397F /* PSOStandardOptimizer2011CircleTopology.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF583967FD264DCC5A4A7D6897B383A /* PSOStandardOptimizer2011CircleTopology.m */; };
+		E6C6F43014E231A11FC4CC58F48C9996 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2E48ADA0A232AE26921EDB77D4C8A3 /* ColorUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E91D0D5220F95F72CE164C8D016413B1 /* PSOAlea.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC9948ED9A5D092BE7D591EE1986C1A2 /* PSOAlea.mm */; };
+		EE6FEDC0ACE64329B5D6AA73C77435D8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00EBD60D74BCF0C6215EB418D9847EC /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA36F47ABA787B3FDA5CDB69CB68A0F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DB708953CB4B0B322226FAED00A28F;
+			remoteInfo = PSOLib;
+		};
+		E39FB4431C3D87FC316E6859AC097CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1131EF7ECA88D1664990F1945B349778;
+			remoteInfo = ColorUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06ABBADF2AE678ED792546F0C7886106 /* libPSOLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPSOLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A91F418B3E7499FC4EE87463D498E /* ColorUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorUtils-dummy.m"; sourceTree = "<group>"; };
+		11733B67093847D509A8E1BDFCC7D5D6 /* Pods-BarTintColorOptimizer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarTintColorOptimizer-resources.sh"; sourceTree = "<group>"; };
+		1C8225245D0C2BB302CFD7229C882A41 /* Pods-BarTintColorOptimizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarTintColorOptimizer-dummy.m"; sourceTree = "<group>"; };
+		246A51B3622FE229B1E0ADCBBC845EBB /* PSOStandardOptimizer2011CircleTopology.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOStandardOptimizer2011CircleTopology.h; path = Pod/PSOStandardOptimizer2011CircleTopology.h; sourceTree = "<group>"; };
+		262BE8057E9038B3B220E514BAF1B7B3 /* PSOSearchSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOSearchSpace.h; path = Pod/PSOSearchSpace.h; sourceTree = "<group>"; };
+		28611520AAADDDF0C3529DC1E6624D2F /* PSORandKISS.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = PSORandKISS.mm; path = Pod/PSORandKISS.mm; sourceTree = "<group>"; };
+		45FD42D7FCAE6B80E1D28C288D99A47C /* libColorUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libColorUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		463C4F5933292EA4EB2336F0FD2D2ABB /* PSOLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSOLib-prefix.pch"; sourceTree = "<group>"; };
+		525E59E0EC07FD7EE71D5EC606040BFE /* PSOLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOLib.h; path = Pod/PSOLib.h; sourceTree = "<group>"; };
+		53AF3C0A4C43ABECF4D5145ED92C4239 /* PSOStandardOptimizer2011.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOStandardOptimizer2011.m; path = Pod/PSOStandardOptimizer2011.m; sourceTree = "<group>"; };
+		5650C3AD9B632F18046FA964EE4691E4 /* PSOFitnessCalculating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOFitnessCalculating.h; path = Pod/PSOFitnessCalculating.h; sourceTree = "<group>"; };
+		5DA59FF51041E25661DA9D6044E7294D /* ColorUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorUtils.xcconfig; sourceTree = "<group>"; };
+		5FE06B6E20B4ADFEE28EF5A50A3AED71 /* PSOLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PSOLib-Private.xcconfig"; sourceTree = "<group>"; };
+		67553DB033667A0078D2651F10673D8A /* ColorUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorUtils-prefix.pch"; sourceTree = "<group>"; };
+		6EE4A1C9AF87F2D09939D9A6A44D19A0 /* Pods-BarTintColorOptimizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarTintColorOptimizer.debug.xcconfig"; sourceTree = "<group>"; };
+		7F96956E9AE95408BA6932FADADBEFD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7FBE0F3DEF643522C89FC115C386A4CE /* Pods-BarTintColorOptimizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarTintColorOptimizer.release.xcconfig"; sourceTree = "<group>"; };
+		854F82DB11FD2D402DB4AF505EC19309 /* PSOImmutableProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOImmutableProxy.h; path = Pod/PSOImmutableProxy.h; sourceTree = "<group>"; };
+		8DD88330959B441B6F206A205453349B /* PSORandKISS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSORandKISS.h; path = Pod/PSORandKISS.h; sourceTree = "<group>"; };
+		901373F14A475E75BC25206248E891E2 /* Pods-BarTintColorOptimizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarTintColorOptimizer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91E4852DDD515852760AD63D389C8690 /* Pods-BarTintColorOptimizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarTintColorOptimizer-acknowledgements.plist"; sourceTree = "<group>"; };
+		92E72ECA08C8AD344834F37068748EC7 /* PSOLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSOLib.xcconfig; sourceTree = "<group>"; };
+		962F3EDEE67BB10A7458983DD8352DFD /* PSOAlea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOAlea.h; path = Pod/PSOAlea.h; sourceTree = "<group>"; };
+		99AF138408567F9326267DF9F9448ED2 /* ColorUtils-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ColorUtils-Private.xcconfig"; sourceTree = "<group>"; };
+		99FB677AE426C0235E5DDD5C9755D971 /* PSOStandardOptimizer2011_Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOStandardOptimizer2011_Subclass.h; path = Pod/PSOStandardOptimizer2011_Subclass.h; sourceTree = "<group>"; };
+		AC5971D7712D42D4B3CF9E87B3C2C731 /* libPods-BarTintColorOptimizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarTintColorOptimizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC9948ED9A5D092BE7D591EE1986C1A2 /* PSOAlea.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = PSOAlea.mm; path = Pod/PSOAlea.mm; sourceTree = "<group>"; };
+		C1CE84FA87120A80CE45441EEC64C0A6 /* PSOSearchSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOSearchSpace.m; path = Pod/PSOSearchSpace.m; sourceTree = "<group>"; };
+		D00EBD60D74BCF0C6215EB418D9847EC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		D635858772FE4F7375F669A48C4DA8A0 /* PSOStandardOptimizer2011.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOStandardOptimizer2011.h; path = Pod/PSOStandardOptimizer2011.h; sourceTree = "<group>"; };
+		DC0CB1BC387D40C7B38E0D6E41ECCCBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E5A36C95AD56F56AEC61FBEE7AEC6999 /* ColorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorUtils.h; path = ColorUtils/ColorUtils.h; sourceTree = "<group>"; };
+		E966F7B53E03C4AABA598223D8ABB97D /* PSOLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSOLib-dummy.m"; sourceTree = "<group>"; };
+		EDF583967FD264DCC5A4A7D6897B383A /* PSOStandardOptimizer2011CircleTopology.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOStandardOptimizer2011CircleTopology.m; path = Pod/PSOStandardOptimizer2011CircleTopology.m; sourceTree = "<group>"; };
+		F0BF1EAF1B9FDD2E4A0ABB635F3DA5F2 /* PSOImmutableProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOImmutableProxy.m; path = Pod/PSOImmutableProxy.m; sourceTree = "<group>"; };
+		FE2E48ADA0A232AE26921EDB77D4C8A3 /* ColorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorUtils.m; path = ColorUtils/ColorUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D0C68F47984D48D0B25865735B5DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0CAF71A43BCA2B5672DADA4882D7C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94262C227DEFCA3E75D322CBD5D2461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6FEDC0ACE64329B5D6AA73C77435D8 /* Accelerate.framework in Frameworks */,
+				265693E2E56B618072663958A106AC55 /* Foundation.framework in Frameworks */,
+				782030683E0CE2F47EB2B1974A29CFF5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E235DF8BE7575A07444977A6683DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08209640B58E5EA1C09E0E563E27318C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF00C4020B2507E922F47E7142F0B2B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19A3547623B3D9D5A8A8E4EEC7139F40 /* PSOLib */ = {
+			isa = PBXGroup;
+			children = (
+				962F3EDEE67BB10A7458983DD8352DFD /* PSOAlea.h */,
+				BC9948ED9A5D092BE7D591EE1986C1A2 /* PSOAlea.mm */,
+				5650C3AD9B632F18046FA964EE4691E4 /* PSOFitnessCalculating.h */,
+				854F82DB11FD2D402DB4AF505EC19309 /* PSOImmutableProxy.h */,
+				F0BF1EAF1B9FDD2E4A0ABB635F3DA5F2 /* PSOImmutableProxy.m */,
+				525E59E0EC07FD7EE71D5EC606040BFE /* PSOLib.h */,
+				8DD88330959B441B6F206A205453349B /* PSORandKISS.h */,
+				28611520AAADDDF0C3529DC1E6624D2F /* PSORandKISS.mm */,
+				262BE8057E9038B3B220E514BAF1B7B3 /* PSOSearchSpace.h */,
+				C1CE84FA87120A80CE45441EEC64C0A6 /* PSOSearchSpace.m */,
+				D635858772FE4F7375F669A48C4DA8A0 /* PSOStandardOptimizer2011.h */,
+				53AF3C0A4C43ABECF4D5145ED92C4239 /* PSOStandardOptimizer2011.m */,
+				246A51B3622FE229B1E0ADCBBC845EBB /* PSOStandardOptimizer2011CircleTopology.h */,
+				EDF583967FD264DCC5A4A7D6897B383A /* PSOStandardOptimizer2011CircleTopology.m */,
+				99FB677AE426C0235E5DDD5C9755D971 /* PSOStandardOptimizer2011_Subclass.h */,
+				DF269AE997257EB624792577DD225106 /* Support Files */,
+			);
+			path = PSOLib;
+			sourceTree = "<group>";
+		};
+		3890A1D1B1358FE701CA73A8875D983E /* ColorUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E5A36C95AD56F56AEC61FBEE7AEC6999 /* ColorUtils.h */,
+				FE2E48ADA0A232AE26921EDB77D4C8A3 /* ColorUtils.m */,
+				85F9D7D39C0927A8D986E68B5E5074EF /* Support Files */,
+			);
+			path = ColorUtils;
+			sourceTree = "<group>";
+		};
+		4DF00C4020B2507E922F47E7142F0B2B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D00EBD60D74BCF0C6215EB418D9847EC /* Accelerate.framework */,
+				DC0CB1BC387D40C7B38E0D6E41ECCCBF /* Foundation.framework */,
+				7F96956E9AE95408BA6932FADADBEFD4 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4EB8DC8172D83DEF062CAE428A0727A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E997F38E0DFCC607A9CEF47556F12870 /* Pods-BarTintColorOptimizer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F34C9EA0764DDC3EBC61803E19FF394D /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4EB8DC8172D83DEF062CAE428A0727A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85F9D7D39C0927A8D986E68B5E5074EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59FF51041E25661DA9D6044E7294D /* ColorUtils.xcconfig */,
+				99AF138408567F9326267DF9F9448ED2 /* ColorUtils-Private.xcconfig */,
+				0F1A91F418B3E7499FC4EE87463D498E /* ColorUtils-dummy.m */,
+				67553DB033667A0078D2651F10673D8A /* ColorUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorUtils";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FD42D7FCAE6B80E1D28C288D99A47C /* libColorUtils.a */,
+				06ABBADF2AE678ED792546F0C7886106 /* libPSOLib.a */,
+				AC5971D7712D42D4B3CF9E87B3C2C731 /* libPods-BarTintColorOptimizer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF269AE997257EB624792577DD225106 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92E72ECA08C8AD344834F37068748EC7 /* PSOLib.xcconfig */,
+				5FE06B6E20B4ADFEE28EF5A50A3AED71 /* PSOLib-Private.xcconfig */,
+				E966F7B53E03C4AABA598223D8ABB97D /* PSOLib-dummy.m */,
+				463C4F5933292EA4EB2336F0FD2D2ABB /* PSOLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PSOLib";
+			sourceTree = "<group>";
+		};
+		E997F38E0DFCC607A9CEF47556F12870 /* Pods-BarTintColorOptimizer */ = {
+			isa = PBXGroup;
+			children = (
+				901373F14A475E75BC25206248E891E2 /* Pods-BarTintColorOptimizer-acknowledgements.markdown */,
+				91E4852DDD515852760AD63D389C8690 /* Pods-BarTintColorOptimizer-acknowledgements.plist */,
+				1C8225245D0C2BB302CFD7229C882A41 /* Pods-BarTintColorOptimizer-dummy.m */,
+				11733B67093847D509A8E1BDFCC7D5D6 /* Pods-BarTintColorOptimizer-resources.sh */,
+				6EE4A1C9AF87F2D09939D9A6A44D19A0 /* Pods-BarTintColorOptimizer.debug.xcconfig */,
+				7FBE0F3DEF643522C89FC115C386A4CE /* Pods-BarTintColorOptimizer.release.xcconfig */,
+			);
+			name = "Pods-BarTintColorOptimizer";
+			path = "Target Support Files/Pods-BarTintColorOptimizer";
+			sourceTree = "<group>";
+		};
+		F34C9EA0764DDC3EBC61803E19FF394D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3890A1D1B1358FE701CA73A8875D983E /* ColorUtils */,
+				19A3547623B3D9D5A8A8E4EEC7139F40 /* PSOLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81B4454B7A948F5C42642AE959B70B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F8BFEA78C4161C0CC69F7C447CA210 /* ColorUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9825279673AA0E175BE7D452F5AEBB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFDA6F9EBD332657C9264A7405C5ACF /* PSOAlea.h in Headers */,
+				20AA1760826350F4FF6727D36F9A3B4D /* PSOFitnessCalculating.h in Headers */,
+				5582E65B67A94E18B37B30FBC0007664 /* PSOImmutableProxy.h in Headers */,
+				D5E74A8A3DF1DBB232CE190F597B2D86 /* PSOLib.h in Headers */,
+				75152FB60E99476313E2501808C78BEA /* PSORandKISS.h in Headers */,
+				9DFB5DE641B379C3068F04EEA8413621 /* PSOSearchSpace.h in Headers */,
+				0533FCB7379EF1A46704DA979765D48F /* PSOStandardOptimizer2011.h in Headers */,
+				51E146655987A5298D9C5A6B9FD26162 /* PSOStandardOptimizer2011CircleTopology.h in Headers */,
+				222FA9124AB7BA94956039AB408289CF /* PSOStandardOptimizer2011_Subclass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1131EF7ECA88D1664990F1945B349778 /* ColorUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B67769B4042C4B9509E6451D92C6CE /* Build configuration list for PBXNativeTarget "ColorUtils" */;
+			buildPhases = (
+				B36755A60A60FFC5488AB3EBA9E9AA9E /* Sources */,
+				14D0C68F47984D48D0B25865735B5DE1 /* Frameworks */,
+				81B4454B7A948F5C42642AE959B70B3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorUtils;
+			productName = ColorUtils;
+			productReference = 45FD42D7FCAE6B80E1D28C288D99A47C /* libColorUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82DB708953CB4B0B322226FAED00A28F /* PSOLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE47DCE97966F5820B98F5A82A3FA9CB /* Build configuration list for PBXNativeTarget "PSOLib" */;
+			buildPhases = (
+				D2588218E0149B8AC90AB9352D5C7367 /* Sources */,
+				94262C227DEFCA3E75D322CBD5D2461E /* Frameworks */,
+				D9825279673AA0E175BE7D452F5AEBB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSOLib;
+			productName = PSOLib;
+			productReference = 06ABBADF2AE678ED792546F0C7886106 /* libPSOLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95F24CACC96336269184CA98CD7C6174 /* Pods-BarTintColorOptimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EF43E77D20EA115770009BEABBC22E /* Build configuration list for PBXNativeTarget "Pods-BarTintColorOptimizer" */;
+			buildPhases = (
+				B8D8C6B66C81481AF7536BF7E65E3C71 /* Sources */,
+				C4E235DF8BE7575A07444977A6683DB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62698A779FEC428249BA2D633617F31B /* PBXTargetDependency */,
+				E0A669084FA879FF1BA468DBF0F4BC6B /* PBXTargetDependency */,
+			);
+			name = "Pods-BarTintColorOptimizer";
+			productName = "Pods-BarTintColorOptimizer";
+			productReference = AC5971D7712D42D4B3CF9E87B3C2C731 /* libPods-BarTintColorOptimizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1131EF7ECA88D1664990F1945B349778 /* ColorUtils */,
+				82DB708953CB4B0B322226FAED00A28F /* PSOLib */,
+				95F24CACC96336269184CA98CD7C6174 /* Pods-BarTintColorOptimizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36755A60A60FFC5488AB3EBA9E9AA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D300BB6695E2E64B6BDC93D7742AF26C /* ColorUtils-dummy.m in Sources */,
+				E6C6F43014E231A11FC4CC58F48C9996 /* ColorUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D8C6B66C81481AF7536BF7E65E3C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DD6F573C65E55DE0D39046B50B6486 /* Pods-BarTintColorOptimizer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2588218E0149B8AC90AB9352D5C7367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91D0D5220F95F72CE164C8D016413B1 /* PSOAlea.mm in Sources */,
+				73D69B7680E8A03F41ABA677098E0674 /* PSOImmutableProxy.m in Sources */,
+				C37F85A92F4686A7BDD28A91E4ADFBE8 /* PSOLib-dummy.m in Sources */,
+				67AD1199AE687869FBC70941F49641FA /* PSORandKISS.mm in Sources */,
+				D3B0CC979D4B49D65EAFDA4658DD3074 /* PSOSearchSpace.m in Sources */,
+				750D6AAC3383E9228F355AA46F3E9F88 /* PSOStandardOptimizer2011.m in Sources */,
+				D956B2D40B4E14AFA46FF157CAB6397F /* PSOStandardOptimizer2011CircleTopology.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62698A779FEC428249BA2D633617F31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorUtils;
+			target = 1131EF7ECA88D1664990F1945B349778 /* ColorUtils */;
+			targetProxy = E39FB4431C3D87FC316E6859AC097CF6 /* PBXContainerItemProxy */;
+		};
+		E0A669084FA879FF1BA468DBF0F4BC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSOLib;
+			target = 82DB708953CB4B0B322226FAED00A28F /* PSOLib */;
+			targetProxy = AA36F47ABA787B3FDA5CDB69CB68A0F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		282EE0A89F9D2BFC72F2C35FA2DB7EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AF138408567F9326267DF9F9448ED2 /* ColorUtils-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorUtils/ColorUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A06F11FED0618971F2EC69BF29CA4DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FBE0F3DEF643522C89FC115C386A4CE /* Pods-BarTintColorOptimizer.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A2C77D432EAF9E8B306015D5357804CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE4A1C9AF87F2D09939D9A6A44D19A0 /* Pods-BarTintColorOptimizer.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6C338095167BA7CAB88C6F6EBF8F142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE06B6E20B4ADFEE28EF5A50A3AED71 /* PSOLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSOLib/PSOLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F2B1E360809C993393AE098DF7262B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AF138408567F9326267DF9F9448ED2 /* ColorUtils-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorUtils/ColorUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F929A27E21C747D395634C0AD108F6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE06B6E20B4ADFEE28EF5A50A3AED71 /* PSOLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSOLib/PSOLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EF43E77D20EA115770009BEABBC22E /* Build configuration list for PBXNativeTarget "Pods-BarTintColorOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C77D432EAF9E8B306015D5357804CE /* Debug */,
+				A06F11FED0618971F2EC69BF29CA4DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE47DCE97966F5820B98F5A82A3FA9CB /* Build configuration list for PBXNativeTarget "PSOLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F929A27E21C747D395634C0AD108F6FC /* Debug */,
+				B6C338095167BA7CAB88C6F6EBF8F142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B67769B4042C4B9509E6451D92C6CE /* Build configuration list for PBXNativeTarget "ColorUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282EE0A89F9D2BFC72F2C35FA2DB7EE6 /* Debug */,
+				F2B1E360809C993393AE098DF7262B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

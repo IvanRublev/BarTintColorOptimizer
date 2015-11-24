@@ -1,0 +1,4 @@
+
+UIColor* barColor = [UIColor colorWithRed:<%color_r%> green:<%color_g%> blue:<%color_b%> alpha:1.0]; // <%color_string%> to make bars actual color match the <%designed_color_string%> color.
+[[UINavigationBar appearance] setBarTintColor:barColor];
+[[UIToolbar appearance] setBarTintColor:barColor];

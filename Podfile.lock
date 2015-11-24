@@ -1,0 +1,13 @@
+PODS:
+  - ColorUtils (1.1.3)
+  - PSOLib (1.0.0)
+
+DEPENDENCIES:
+  - ColorUtils (~> 1.1)
+  - PSOLib (~> 1.0)
+
+SPEC CHECKSUMS:
+  ColorUtils: f99c501f9caf5374b35480a281168565a24bdb6d
+  PSOLib: 60f09d7db40f557ab8becbead3f8d0b0306cb9dc
+
+COCOAPODS: 0.38.2
