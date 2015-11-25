@@ -5,6 +5,8 @@ Purpose
 
 The BarTintColorOptimizer app is an iOS developer tool that runs on the device. It helps to find the bar tint color that makes app's translucent bar appearance match the desired color. 
 
+> :warning: Works for bright color schemes only.
+
 
 Bar tint color and translucency in iOS 7.x and later
 ----------------------------------------------------
