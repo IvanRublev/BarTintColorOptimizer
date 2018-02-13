@@ -293,8 +293,11 @@ NSUInteger const particlesCount = 40; // don't touch, it's magic constant).
     NSMutableArray *barColors = [NSMutableArray array];
     for (NSUInteger barIdx=0; barIdx<self.bars.count; barIdx++) {
         UINavigationBar *navbar = self.bars[barIdx];
-        CGPoint pixelPoint = CGPointMake((navbar.frame.origin.x + navbar.frame.size.width/2.) * scale,
-                                         (navbar.frame.origin.y + navbar.frame.size.height/2.) * scale);
+        __block CGPoint pixelPoint;
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            pixelPoint = CGPointMake((navbar.frame.origin.x + navbar.frame.size.width/2.) * scale,
+                                     (navbar.frame.origin.y + navbar.frame.size.height/2.) * scale);
+        });
         int offset = bpr*round(pixelPoint.y) + Bpp*round(pixelPoint.x);
         uint8_t data[Bpp];
         [imageData getBytes:&data range:NSMakeRange(offset, sizeof(uint32_t))];
